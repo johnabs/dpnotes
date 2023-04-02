@@ -19,7 +19,7 @@
 #+NAME: Temp
 #+CAPTION:  test
 #+begin_src R :file basic.png :exports both :results output graphics file
-plot(x=1:10,y=2*(1:10))
+plot(x=1:11,y=2*(1:11))
 #+end_src
 
 
