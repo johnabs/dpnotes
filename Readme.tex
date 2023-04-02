@@ -1,0 +1,494 @@
+% Created 2023-04-02 Sun 15:06
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage[margin=0.75in]{geometry}
+\date{}
+\title{IE 633: Dynamic Programming Notes}
+\hypersetup{
+ pdfauthor={John Biechele-Speziale},
+ pdftitle={IE 633: Dynamic Programming Notes},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 28.1 (Org mode 9.6)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+
+\section*{Lecture 1}
+\label{sec:org6eda2d7}
+\subsection*{Topics Covered}
+\label{sec:orgfc4eba3}
+\textbf{*}
+\subsection*{Backlinks}
+\label{sec:org6cacf1e}
+\subsubsection*{None}
+\label{sec:orgdba81fe}
+\subsection*{Book References}
+\label{sec:orgf2124c9}
+\subsubsection*{None}
+\label{sec:org13ab378}
+\subsection*{Propositions/Proofs/Theorms}
+\label{sec:org5ec41b5}
+**
+\subsection*{Notes}
+\label{sec:org0e431dd}
+
+\begin{verbatim}
+plot(x=1:10,y=2*(1:10))
+\end{verbatim}
+\captionof{figure}{\label{Temp}test}
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{basic.png}
+\end{center}
+
+
+$$\underset{u}min E[g+J]$$
+
+
+\section*{Lecture 2}
+\label{sec:org2ce8768}
+\subsection*{Topics Covered}
+\label{sec:org0d782ea}
+\subsubsection*{Deterministic Problems}
+\label{sec:org41aa3c3}
+\subsection*{Backlinks}
+\label{sec:org34537b6}
+\subsubsection*{None}
+\label{sec:org3e5a59f}
+\subsection*{Book References}
+\label{sec:org79c27ee}
+\subsubsection*{None}
+\label{sec:org0194db5}
+\subsection*{Propositions/Proofs/Theorms}
+\label{sec:org223ee1a}
+**
+
+\section*{Lecture 3}
+\label{sec:org7edbfb4}
+\subsection*{Topics Covered}
+\label{sec:org5dd652f}
+\subsubsection*{Finite State, Action, and Horizon Problems, Viterbi Algorithm}
+\label{sec:orgb9bc160}
+\subsection*{Backlinks}
+\label{sec:orgdf9ddb4}
+\subsubsection*{None}
+\label{sec:org8b990d5}
+\subsection*{Book References}
+\label{sec:orgd601b87}
+\subsubsection*{None}
+\label{sec:org7c0ccdc}
+\subsection*{Propositions/Proofs/Theorms}
+\label{sec:org9010ac2}
+**
+
+\section*{Lecture 4}
+\label{sec:org3044e6b}
+\subsection*{Topics Covered}
+\label{sec:org3953dd1}
+\subsubsection*{Viterbi Algorithm, Hidden Markov Models, Maximum A Posteriori Estimation, Forward Dynamic Programming, Multi-Objective and Constrained Dynamic Programming}
+\label{sec:orgff1d38b}
+\subsection*{Backlinks}
+\label{sec:orga26aefd}
+\subsubsection*{None}
+\label{sec:org55638c6}
+\subsection*{Book References}
+\label{sec:org50918fb}
+\subsubsection*{None}
+\label{sec:org0442988}
+\subsection*{Propositions/Proofs/Theorms}
+\label{sec:org5560091}
+**
+
+\section*{Lecture 5}
+\label{sec:orgc83cab3}
+\subsection*{Topics Covered}
+\label{sec:orgfb452f9}
+\subsubsection*{Viterbi Algorithm Linear Model}
+\label{sec:org5d62535}
+\subsection*{Backlinks}
+\label{sec:orga5d0e2b}
+\subsubsection*{None}
+\label{sec:org78d6c3d}
+\subsection*{Book References}
+\label{sec:orgd606f05}
+\subsubsection*{None}
+\label{sec:org2f8bf1d}
+\subsection*{Propositions/Proofs/Theorms}
+\label{sec:org96197ea}
+**
+
+\section*{Lecture 6}
+\label{sec:org177bde9}
+\subsection*{Topics Covered}
+\label{sec:org563d6a2}
+\subsubsection*{Markov Policies, Inventory Control Problems, Stopping Time Problems}
+\label{sec:orgd2e120f}
+\subsection*{Backlinks}
+\label{sec:org75b5665}
+\subsubsection*{None}
+\label{sec:org4a48cad}
+\subsection*{Book References}
+\label{sec:org65e81a6}
+\subsubsection*{None}
+\label{sec:org612ab3b}
+\subsection*{Propositions/Proofs/Theorms}
+\label{sec:orgf2b82df}
+**
+
+\section*{Lecture 7}
+\label{sec:orgaeaaaf7}
+\subsection*{Topics Covered}
+\label{sec:org6ddd920}
+\subsubsection*{k-Convexity, Optimal Stopping/Asset Selling,}
+\label{sec:org035bb5c}
+\subsection*{Backlinks}
+\label{sec:org8bc5ce4}
+\subsubsection*{None}
+\label{sec:orgfecde59}
+\subsection*{Propositions/Proofs/Theorms}
+\label{sec:orge42a5fd}
+**
+
+\section*{Lecture 8}
+\label{sec:org6304f71}
+\subsection*{Topics Covered}
+\label{sec:org470ae37}
+\subsubsection*{Markov Decision Processes, Optimal Staionary Policies, The Bellman Operator}
+\label{sec:org5df7359}
+\subsection*{Backlinks}
+\label{sec:orgad5a26c}
+\subsubsection*{None}
+\label{sec:org5277924}
+\subsection*{Book References}
+\label{sec:orgce6ef2f}
+\subsubsection*{Chapter 2 of Bertsekas and Shreve}
+\label{sec:orgb6bb555}
+\subsection*{Propositions/Proofs/Theorms}
+\label{sec:orged1b181}
+**
+
+\section*{Lecture 9}
+\label{sec:orge5887c5}
+\subsection*{Topics Covered}
+\label{sec:org6199251}
+\textbf{*}
+\subsection*{Backlinks}
+\label{sec:org57eb0a6}
+\subsubsection*{None}
+\label{sec:org6faed67}
+\subsection*{Propositions/Proofs/Theorms}
+\label{sec:org79f9caf}
+**
+
+\section*{Lecture 10}
+\label{sec:org1eeb579}
+\subsection*{Topics Covered}
+\label{sec:org81bac42}
+\textbf{*}
+\subsection*{Backlinks}
+\label{sec:orgaf7c3ff}
+\subsubsection*{None}
+\label{sec:orga5d28f9}
+\subsection*{Propositions/Proofs/Theorms}
+\label{sec:org3cd0f12}
+**
+
+\section*{Lecture 11}
+\label{sec:orge2cbb5e}
+\subsection*{Topics Covered}
+\label{sec:org5927739}
+\textbf{*}
+\subsection*{Backlinks}
+\label{sec:org3beb9c4}
+\subsubsection*{None}
+\label{sec:orgfa2dbf7}
+\subsection*{Propositions/Proofs/Theorms}
+\label{sec:org52d36af}
+**
+
+\section*{Lecture 12}
+\label{sec:org54015e3}
+\subsection*{Topics Covered}
+\label{sec:org64fa800}
+\textbf{*}
+\subsection*{Backlinks}
+\label{sec:org23131dc}
+\subsubsection*{None}
+\label{sec:orga20006b}
+\subsection*{Propositions/Proofs/Theorms}
+\label{sec:orgd3798ef}
+**
+
+\section*{Lecture 13}
+\label{sec:org9f61758}
+\subsection*{Topics Covered}
+\label{sec:orgfb5de79}
+\textbf{*}
+\subsection*{Backlinks}
+\label{sec:org56dcc56}
+\subsubsection*{None}
+\label{sec:org36beedf}
+\subsection*{Propositions/Proofs/Theorms}
+\label{sec:orgd10f013}
+**
+
+\section*{Lecture 14}
+\label{sec:orgd2849d5}
+\subsection*{Topics Covered}
+\label{sec:org20a7157}
+\textbf{*}
+\subsection*{Backlinks}
+\label{sec:orgd26c068}
+\subsubsection*{None}
+\label{sec:org686084c}
+\subsection*{Propositions/Proofs/Theorms}
+\label{sec:orgcec89b6}
+**
+
+\section*{Lecture 15}
+\label{sec:orga27fb96}
+\subsection*{Topics Covered}
+\label{sec:org30152b6}
+\textbf{*}
+\subsection*{Backlinks}
+\label{sec:org948a652}
+\subsubsection*{None}
+\label{sec:org6340ea8}
+\subsection*{Propositions/Proofs/Theorms}
+\label{sec:orgaea8788}
+**
+
+\section*{Lecture 16}
+\label{sec:org115929e}
+\subsection*{Topics Covered}
+\label{sec:org05f7c55}
+\textbf{*}
+\subsection*{Backlinks}
+\label{sec:org93c1788}
+\subsubsection*{None}
+\label{sec:org9e6000d}
+\subsection*{Propositions/Proofs/Theorms}
+\label{sec:org13f6096}
+**
+
+\section*{Lecture 17}
+\label{sec:org2afea9b}
+\subsection*{Topics Covered}
+\label{sec:org089f983}
+\textbf{*}
+\subsection*{Backlinks}
+\label{sec:orgfe06916}
+\subsubsection*{None}
+\label{sec:org74ecaa4}
+\subsection*{Propositions/Proofs/Theorms}
+\label{sec:org31222cd}
+**
+
+\section*{Lecture 18}
+\label{sec:orgdc3217d}
+\subsection*{Topics Covered}
+\label{sec:orgceec16d}
+\textbf{*}
+\subsection*{Backlinks}
+\label{sec:org187faf5}
+\subsubsection*{None}
+\label{sec:org73cc427}
+\subsection*{Propositions/Proofs/Theorms}
+\label{sec:org6d424d9}
+**
+
+\section*{Lecture 19}
+\label{sec:org7dcf866}
+\subsection*{Topics Covered}
+\label{sec:org8923e7f}
+\textbf{*}
+\subsection*{Backlinks}
+\label{sec:org8b9230d}
+\subsubsection*{None}
+\label{sec:org22f4166}
+\subsection*{Propositions/Proofs/Theorms}
+\label{sec:org625766c}
+**
+
+\section*{Lecture 20}
+\label{sec:org2d431f9}
+\subsection*{Topics Covered}
+\label{sec:org1b4db12}
+\textbf{*}
+\subsection*{Backlinks}
+\label{sec:org05fa1a0}
+\subsubsection*{None}
+\label{sec:orga480c8b}
+\subsection*{Propositions/Proofs/Theorms}
+\label{sec:org8fc883e}
+**
+
+\section*{Lecture 21}
+\label{sec:org75b4dce}
+\subsection*{Topics Covered}
+\label{sec:org3636d4c}
+\textbf{*}
+\subsection*{Backlinks}
+\label{sec:orga7dbe79}
+\subsubsection*{None}
+\label{sec:org61dbfaf}
+\subsection*{Propositions/Proofs/Theorms}
+\label{sec:org8a0d744}
+**
+
+\section*{Lecture 22}
+\label{sec:org61c9eda}
+\subsection*{Topics Covered}
+\label{sec:org0e74a28}
+\textbf{*}
+\subsection*{Backlinks}
+\label{sec:orgc1c9381}
+\subsubsection*{None}
+\label{sec:org3d9ebcb}
+\subsection*{Propositions/Proofs/Theorms}
+\label{sec:orgce8496f}
+**
+
+\section*{Lecture 23}
+\label{sec:org9b21164}
+\subsection*{Topics Covered}
+\label{sec:org14039a5}
+\textbf{*}
+\subsection*{Backlinks}
+\label{sec:org09e198f}
+\subsubsection*{None}
+\label{sec:orgddf71a8}
+\subsection*{Propositions/Proofs/Theorms}
+\label{sec:orged07ae6}
+**
+
+\section*{Lecture 24}
+\label{sec:org33131ca}
+\subsection*{Topics Covered}
+\label{sec:org148202d}
+\textbf{*}
+\subsection*{Backlinks}
+\label{sec:orgfdde571}
+\subsubsection*{None}
+\label{sec:orgd4b9851}
+\subsection*{Propositions/Proofs/Theorms}
+\label{sec:org27e5b7e}
+**
+
+\section*{Lecture 25}
+\label{sec:org6ad8522}
+\subsection*{Topics Covered}
+\label{sec:org2ef6ab0}
+\textbf{*}
+\subsection*{Backlinks}
+\label{sec:orga11dd1b}
+\subsubsection*{None}
+\label{sec:org4aab858}
+\subsection*{Propositions/Proofs/Theorms}
+\label{sec:org7f0747a}
+**
+
+\section*{Lecture 26}
+\label{sec:org68c5178}
+\subsection*{Topics Covered}
+\label{sec:org1a5cd22}
+\textbf{*}
+\subsection*{Backlinks}
+\label{sec:org7d69fe5}
+\subsubsection*{None}
+\label{sec:org2f59498}
+\subsection*{Propositions/Proofs/Theorms}
+\label{sec:org4194692}
+**
+
+\section*{Lecture 27}
+\label{sec:orgacd1f63}
+\subsection*{Topics Covered}
+\label{sec:org65ff7d1}
+\textbf{*}
+\subsection*{Backlinks}
+\label{sec:orgb29d669}
+\subsubsection*{None}
+\label{sec:org2b48202}
+\subsection*{Propositions/Proofs/Theorms}
+\label{sec:orgb217bfb}
+**
+
+\section*{Lecture 28}
+\label{sec:org5aca37d}
+\subsection*{Topics Covered}
+\label{sec:orgf8ee15a}
+\textbf{*}
+\subsection*{Backlinks}
+\label{sec:org8179e98}
+\subsubsection*{None}
+\label{sec:orgda2903b}
+\subsection*{Propositions/Proofs/Theorms}
+\label{sec:orgaf6e32a}
+**
+
+\section*{Lecture 29}
+\label{sec:org777967c}
+\subsection*{Topics Covered}
+\label{sec:org0d02d03}
+\textbf{*}
+\subsection*{Backlinks}
+\label{sec:orgba39f43}
+\subsubsection*{None}
+\label{sec:org700a246}
+\subsection*{Propositions/Proofs/Theorms}
+\label{sec:org53935d6}
+**
+
+\section*{Lecture 30}
+\label{sec:org1bfd639}
+\subsection*{Topics Covered}
+\label{sec:orgcea17f9}
+\textbf{*}
+\subsection*{Backlinks}
+\label{sec:orgdbc257a}
+\subsubsection*{None}
+\label{sec:org969b4c0}
+\subsection*{Propositions/Proofs/Theorms}
+\label{sec:org27764e9}
+**
+
+\section*{Lecture 31}
+\label{sec:orge896424}
+\subsection*{Topics Covered}
+\label{sec:org69268a5}
+\textbf{*}
+\subsection*{Backlinks}
+\label{sec:org9ecac84}
+\subsubsection*{None}
+\label{sec:org3f23b02}
+\subsection*{Propositions/Proofs/Theorms}
+\label{sec:org125c598}
+**
+
+\section*{Lecture 32}
+\label{sec:orgb3d0358}
+\subsection*{Topics Covered}
+\label{sec:org42c50ab}
+\textbf{*}
+\subsection*{Backlinks}
+\label{sec:org54b92d6}
+\subsubsection*{None}
+\label{sec:orged94b4c}
+\subsection*{Propositions/Proofs/Theorms}
+\label{sec:orgcca6956}
+**
+\end{document}

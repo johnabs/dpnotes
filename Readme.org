@@ -1,0 +1,287 @@
+#+title: IE 633: Dynamic Programming Notes
+#+OPTIONS: toc:nil author:nil date:nil num:nil
+#+LATEX_HEADER: \usepackage[margin=0.75in]{geometry}
+
+* Lecture 1
+** Topics Covered
+***
+** Backlinks
+*** None
+** Book References
+*** None
+** Propositions/Proofs/Theorms
+**
+** Notes
+
+#+attr_html: :width 10px
+#+attr_latex: :width 10px
+
+#+NAME: Temp
+#+CAPTION:  test
+#+begin_src R :file basic.png :exports both :results output graphics file
+plot(x=1:10,y=2*(1:10))
+#+end_src
+
+
+$$\underset{u}min E[g+J]$$
+
+
+* Lecture 2
+** Topics Covered
+*** Deterministic Problems
+** Backlinks
+*** None
+** Book References
+*** None
+** Propositions/Proofs/Theorms
+**
+
+* Lecture 3
+** Topics Covered
+*** Finite State, Action, and Horizon Problems, Viterbi Algorithm
+** Backlinks
+*** None
+** Book References
+*** None
+** Propositions/Proofs/Theorms
+**
+
+* Lecture 4
+** Topics Covered
+*** Viterbi Algorithm, Hidden Markov Models, Maximum A Posteriori Estimation, Forward Dynamic Programming, Multi-Objective and Constrained Dynamic Programming
+** Backlinks
+*** None
+** Book References
+*** None
+** Propositions/Proofs/Theorms
+**
+
+* Lecture 5
+** Topics Covered
+*** Viterbi Algorithm Linear Model
+** Backlinks
+*** None
+** Book References
+*** None
+** Propositions/Proofs/Theorms
+**
+
+* Lecture 6
+** Topics Covered
+*** Markov Policies, Inventory Control Problems, Stopping Time Problems
+** Backlinks
+*** None
+** Book References
+*** None
+** Propositions/Proofs/Theorms
+**
+
+* Lecture 7
+** Topics Covered
+*** k-Convexity, Optimal Stopping/Asset Selling,
+** Backlinks
+*** None
+** Propositions/Proofs/Theorms
+**
+
+* Lecture 8
+** Topics Covered
+*** Markov Decision Processes, Optimal Staionary Policies, The Bellman Operator
+** Backlinks
+*** None
+** Book References
+*** Chapter 2 of Bertsekas and Shreve
+** Propositions/Proofs/Theorms
+**
+
+* Lecture 9
+** Topics Covered
+***
+** Backlinks
+*** None
+** Propositions/Proofs/Theorms
+**
+
+* Lecture 10
+** Topics Covered
+***
+** Backlinks
+*** None
+** Propositions/Proofs/Theorms
+**
+
+* Lecture 11
+** Topics Covered
+***
+** Backlinks
+*** None
+** Propositions/Proofs/Theorms
+**
+
+* Lecture 12
+** Topics Covered
+***
+** Backlinks
+*** None
+** Propositions/Proofs/Theorms
+**
+
+* Lecture 13
+** Topics Covered
+***
+** Backlinks
+*** None
+** Propositions/Proofs/Theorms
+**
+
+* Lecture 14
+** Topics Covered
+***
+** Backlinks
+*** None
+** Propositions/Proofs/Theorms
+**
+
+* Lecture 15
+** Topics Covered
+***
+** Backlinks
+*** None
+** Propositions/Proofs/Theorms
+**
+
+* Lecture 16
+** Topics Covered
+***
+** Backlinks
+*** None
+** Propositions/Proofs/Theorms
+**
+
+* Lecture 17
+** Topics Covered
+***
+** Backlinks
+*** None
+** Propositions/Proofs/Theorms
+**
+
+* Lecture 18
+** Topics Covered
+***
+** Backlinks
+*** None
+** Propositions/Proofs/Theorms
+**
+
+* Lecture 19
+** Topics Covered
+***
+** Backlinks
+*** None
+** Propositions/Proofs/Theorms
+**
+
+* Lecture 20
+** Topics Covered
+***
+** Backlinks
+*** None
+** Propositions/Proofs/Theorms
+**
+
+* Lecture 21
+** Topics Covered
+***
+** Backlinks
+*** None
+** Propositions/Proofs/Theorms
+**
+
+* Lecture 22
+** Topics Covered
+***
+** Backlinks
+*** None
+** Propositions/Proofs/Theorms
+**
+
+* Lecture 23
+** Topics Covered
+***
+** Backlinks
+*** None
+** Propositions/Proofs/Theorms
+**
+
+* Lecture 24
+** Topics Covered
+***
+** Backlinks
+*** None
+** Propositions/Proofs/Theorms
+**
+
+* Lecture 25
+** Topics Covered
+***
+** Backlinks
+*** None
+** Propositions/Proofs/Theorms
+**
+
+* Lecture 26
+** Topics Covered
+***
+** Backlinks
+*** None
+** Propositions/Proofs/Theorms
+**
+
+* Lecture 27
+** Topics Covered
+***
+** Backlinks
+*** None
+** Propositions/Proofs/Theorms
+**
+
+* Lecture 28
+** Topics Covered
+***
+** Backlinks
+*** None
+** Propositions/Proofs/Theorms
+**
+
+* Lecture 29
+** Topics Covered
+***
+** Backlinks
+*** None
+** Propositions/Proofs/Theorms
+**
+
+* Lecture 30
+** Topics Covered
+***
+** Backlinks
+*** None
+** Propositions/Proofs/Theorms
+**
+
+* Lecture 31
+** Topics Covered
+***
+** Backlinks
+*** None
+** Propositions/Proofs/Theorms
+**
+
+* Lecture 32
+** Topics Covered
+***
+** Backlinks
+*** None
+** Propositions/Proofs/Theorms
+**
